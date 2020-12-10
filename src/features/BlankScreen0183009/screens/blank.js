@@ -55,6 +55,7 @@ export default class Blank extends React.Component {
           <View style={styles.View_159} />
         </View>
       </View>
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
     </View>
   )
 }
@@ -75,5 +76,6 @@ const styles = StyleSheet.create({
   View_157: { flexDirection: "row" },
   View_158: { width: 150 },
   Image_162: {},
-  View_159: { width: 150 }
+  View_159: { width: 150 },
+  Button_164: {}
 })
