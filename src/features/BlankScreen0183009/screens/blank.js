@@ -55,7 +55,10 @@ export default class Blank extends React.Component {
           <View style={styles.View_159} />
         </View>
       </View>
-      <Button title="Press me!" onPress={() => alert("Pressed!")} />
+      <Button
+        title="Press me!"
+        onPress={() => this.props.navigation.navigate("ArticleList2184052")}
+      />
     </View>
   )
 }
