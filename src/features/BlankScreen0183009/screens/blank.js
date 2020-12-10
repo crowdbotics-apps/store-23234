@@ -28,9 +28,15 @@ export default class Blank extends React.Component {
 
   render = () => (
     <View>
-      <Image source={{ uri: "https://via.placeholder.com/150" }} />
+      <Image
+        source={{
+          uri:
+            "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/flooop.png"
+        }}
+        style={styles.Image_3}
+      />
     </View>
   )
 }
 
-const styles = StyleSheet.create({ View_1: {}, Image_3: {} })
+const styles = StyleSheet.create({ View_1: {}, Image_3: { height: 100 } })
